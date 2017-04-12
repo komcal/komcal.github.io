@@ -27,6 +27,7 @@ a:hover {
   max-width: 768px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 30px;
 }
 .content {
   margin: 15px;
@@ -39,6 +40,16 @@ a:hover {
 }
 td {
   padding: 5px 10px;
+}
+.side-project-content {
+  text-align: left;
+  display: inline-block;
+}
+#side-project-ul {
+  margin: 5px 0px;
+}
+#side-project-ul > li {
+  padding: 2px;
 }
 @media (max-width: 425px) {
   .header {
