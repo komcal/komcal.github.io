@@ -41,8 +41,14 @@ a:hover {
   margin: 20px 0px;
   display: inline-block
 }
+.social-header {
+  text-align: right;
+}
 td {
   padding: 5px 10px;
+}
+ul {
+  padding-left: 20px;
 }
 .side-project-content {
   text-align: left;
@@ -57,6 +63,12 @@ td {
 @media (max-width: 425px) {
   .header {
     margin: 20px 0px;
+  }
+  .content {
+    margin: 5px;
+  }
+  td {
+    padding: 5px 5px;
   }
   .profile-img {
     max-width: 150px;
